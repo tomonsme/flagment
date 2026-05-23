@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Support | Fragment</title>
+    <meta name="description" content="Fragmentのサポートページ。アプリの問い合わせ、よくある質問、プライバシーポリシーへのリンク。">
+    <meta name="theme-color" content="#050506">
+    <link rel="icon" href="/assets/app-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="サイトヘッダー">
+      <a class="brand" href="/" aria-label="Fragment ホーム">
+        <img src="/assets/app-icon.png" alt="" width="44" height="44">
+        <span>
+          <strong>Fragment</strong>
+          <small>ONE-SHOT TRUTH</small>
+        </span>
+      </a>
+      <nav aria-label="メインナビゲーション">
+        <a href="/">Home</a>
+        <a href="/privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main class="doc-page">
+      <p class="eyebrow">SUPPORT</p>
+      <h1>Support</h1>
+      <p>Fragmentについての問い合わせや不具合報告は、以下のフォームからご連絡ください。</p>
+
+      <h2>Contact</h2>
+      <form class="support-form" name="fragment-support" method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="fragment-support">
+        <label>
+          <span>メールアドレス</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          <span>内容</span>
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button type="submit">送信</button>
+      </form>
+
+      <h2>FAQ</h2>
+      <ul>
+        <li>Fragmentはログイン不要で利用できます。</li>
+        <li>Fragmentは完全オフラインで動作します。</li>
+        <li>広告、課金、外部API、トラッキングは使用していません。</li>
+        <li>お気に入りなどの設定は端末内に保存されます。</li>
+      </ul>
+
+      <h2>Privacy</h2>
+      <p>プライバシーポリシーは <a href="/privacy.html">こちら</a> から確認できます。</p>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Fragment</p>
+      <div>
+        <a href="/">Home</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>
